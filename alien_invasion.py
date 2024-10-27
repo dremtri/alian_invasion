@@ -18,7 +18,7 @@ class AlienInvasion:
     self.clock = pygame.time.Clock() 
     self.setting = Settings()
     self.screen = pygame.display.set_mode((self.setting.screen_width,self.setting.screen_height))
-    pygame.display.set_caption("Alien Invasion")
+    pygame.display.set_caption("Alien Invasion(Python编程：从入门到实践（第3版）`外星人入侵`游戏)")
     # 创建存储游戏统计信息的示例, 并创建记分牌
     self.stats = GameStats(self)
     self.sb = Scoreboard(self)
@@ -29,7 +29,7 @@ class AlienInvasion:
     # 让游戏在一开始处于非活动状态
     self.game_active = False
     # 创建 Play 按钮
-    self.play_button = Button(self, "Play")
+    self.play_button = Button(self, "Play(关注我)")
   
   def run_game(self):
     """开始游戏的主循环"""
